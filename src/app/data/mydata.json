@@ -1,0 +1,26 @@
+[
+  {
+    "main": true,
+    "photoCover": " ../../../assets/image/banabuiu_barragem.jpg",
+    "cardTitle": "Açude Arrojado Lisboa ",
+    "cardDescription": "O Açude Banabuiú ou, oficialmente, Arrojado Lisboa, é um açude brasileiro no estado do Ceará. Está construído sobre o leito do rio Banabuiú no município homônimo. Suas obras foram concluídas em 1966 sendo executadas pelo Departamento Nacional de Obras contra a Seca, o DNOCS"
+  },
+  {
+    "main": false,
+    "photoCover": "../../../assets/image/DSC05413.JPG",
+    "cardTitle": "",
+    "cardDescription": "As obras de construção da barragem tiveram início em 1952, com a instalação do canteiro, acampamento e estradas de acesso. Em 1953 começaram a abertura, limpeza e tratamento da fundação."
+  },
+  {
+    "main": false,
+    "photoCover": "../../../assets/image/ponte_barragem.jpg",
+    "cardTitle": "",
+    "cardDescription": "Em 1961, novas chuvas preocuparam os construtores da barragem, paralisando novamente os trabalhos. Os serviços, reiniciados em 1963, foram concluídos em 1966"
+  },
+  {
+    "main": false,
+    "photoCover": "../../../assets/image/comportas banabuiu.jpg",
+    "cardTitle": "",
+    "cardDescription": "A sua bacia hidrográfica cobre uma área de 13.500 km2. É o terceiro maior reservatório de água do Ceará."
+  }
+]

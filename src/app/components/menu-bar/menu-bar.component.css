@@ -1,0 +1,21 @@
+.container__menu-bar {
+  border-bottom: 0.1rem solid #6F8589;
+}
+
+.menu-bar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 918px;
+  height: 100px;
+  margin: 0 16px;
+}
+
+ul {
+  display: flex;
+}
+
+li {
+  list-style: none;
+  padding: 0 20px;
+}

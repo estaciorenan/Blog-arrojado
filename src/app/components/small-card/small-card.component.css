@@ -1,0 +1,30 @@
+.container_small-card {
+  width: 628px;
+  height: 152px;
+  margin-bottom: 30px;
+}
+
+.container_small-card>a {
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+
+.small-card__photo {
+  width: 247px;
+  height: 152px;
+}
+
+.small-card__photo>img {
+  height: 131px;
+  width: 214px;
+}
+
+.small-card__description {
+  display: flex;
+  justify-content: center;
+  vertical-align: middle;
+  font-family: Poppins, sans-serif;
+  width: 380px;
+  height: 151px;
+}

@@ -1,0 +1,13 @@
+<div class="container">
+  <app-menu-bar></app-menu-bar>
+  <app-menu-title></app-menu-title>
+
+  <div class="articles">
+    <div class="articles__main">
+      <app-big-card [dataMain]="getCardMain()"></app-big-card>
+    </div>
+    <div class="articles__others">
+      <app-small-card *ngFor="let dataSmall of getCardSmall()" [dataSmall]="dataSmall"></app-small-card>
+    </div>
+  </div>
+</div>
