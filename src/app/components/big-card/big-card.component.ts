@@ -9,6 +9,7 @@ import { IdataMain } from 'src/app/interface/dataMain';
 export class BigCardComponent implements OnInit {
   @Input() dataMain: Array<IdataMain> | undefined;
 
+  id: string | undefined = undefined;
   photoCover: string = "";
   cardTitle: string = "";
   cardDescription: string = "";
@@ -22,6 +23,7 @@ export class BigCardComponent implements OnInit {
       this.photoCover = m.photoCover;
       this.cardTitle = m.cardTitle;
       this.cardDescription = m.cardDescription
+      this.id = m.id
     })
   }
 

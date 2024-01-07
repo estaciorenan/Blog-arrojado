@@ -9,6 +9,7 @@ import { IdataMain } from 'src/app/interface/dataMain';
 export class SmallCardComponent implements OnInit {
   @Input() dataSmall: any | undefined;
 
+  id: string | undefined = undefined;
   photo: string = "";
   title: string = "";
   description: string = "";
@@ -20,7 +21,8 @@ export class SmallCardComponent implements OnInit {
   pegarParams() {
     this.photo = this.dataSmall.photoCover;
     this.title = this.dataSmall.cardTitle;
-    this.description = this.dataSmall.cardDescription
+    this.description = this.dataSmall.cardDescription;
+    this.id = this.dataSmall.id;
   }
 
 }
